@@ -16,7 +16,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/project.html">Home</a>
+                <a class="nav-link " aria-current="page" href="/project.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/about.html">About Us</a>
@@ -33,7 +33,7 @@
                   </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact Us</a>
+                <a class="nav-link active" href="/contact.html">Contact Us</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -43,10 +43,43 @@
           </div>
         </div>
       </nav>
-      <div class="container">
+      <div class="container" style="height: 82vh;">
 
-        <h1>this is the contact us page</h1>
+        <form class="my-4">
+          <div class="form-group my-4">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-check my-4">
+            <label class="form-check-label " style="padding-left: -0.5em;"  for="flexCheckDefault">
+              Are you a member ?
+            </label>
+            <input class="form-check-input" style="float: right;
+            margin-right: 68.5em" type="checkbox" value="" id="flexCheckDefault">
+          </div>
+
+          <div class="form-group my-4">
+            <label for="exampleFormControlSelect1">Select your query</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Payment issue</option>
+              <option>Account not working</option>
+              <option>Fraud</option>
+              <option>email not received</option>
+              <option>payment slip needed</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mention your concern in detail</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+        <button class="btn btn-primary">Submit</button>
       </div>
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2023–2024 Smart Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer> 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
